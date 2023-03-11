@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<!-- Адаптирование страницы для мобильных устройств -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Запрет распознования номера телефона -->
+	<meta name="format-detection" content="telephone=no">
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+	<!-- Заголовок страницы -->
+	<title>Область знаний</title>
+
+	<!-- Подключение шрифтов -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@900&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Данное значение часто используют(использовали) поисковые системы -->
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<!-- Изменение цвета панели моб. браузера -->
+	<meta name="msapplication-TileColor" content="#DE041D">
+	<meta name="theme-color" content="#DE041D">
+
+
+	<!-- Подключение файлов стилей -->
+	<link rel="stylesheet" href="css/fancybox.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<link rel="stylesheet" href="css/response_1300.css" media="print, (max-width: 1300px)">
+	<link rel="stylesheet" href="css/response_1187.css" media="print, (max-width: 1187px)">
+	<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+	<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+	<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="main">
+			<header>
+				<div class="cont">
+					<a href="index.html" class="header_logo">
+						<img src="images/logo.png" alt="">
+					</a>
+					<nav class="menu">
+						<div class="item">
+							<a href="#about">Преимущества</a>
+						</div>
+						<div class="item">
+							<a href="#object">Цифры проекта</a>
+						</div>
+						<div class="item">
+							<a href="#reviews">Примеры курсов</a>
+						</div>
+						<div class="item">
+							<a href="#license">Слово руководителя</a>
+						</div>
+					</nav>
+					<div class="header_btn">
+						<button class="btn-entry">Войти</button>
+						<button class="btn-registration">Регистрация</button>
+					</div>
+
+					<button class="mob_menu_btn">
+						<img src="images/ic_mob_menu.svg" alt="">
+					</button>
+					<button class="close_btn">
+						<img src="images/ic_close_menu.svg" alt="">
+					</button>
+				</div>
+			</header>
+
+
+
+			<section class="first-section">
+				<div class="cont">
+					<div class="first-section_info">
+						<div class="first-section_title">Область знаний:<br> <span>бесплатный доступ <br>к
+								развитию</span> в нашем регионе</div>
+						<div class="first-section_text">У нас есть курсы по:</div>
+						<div class="typing-container">
+							<span id="sentence" class="sentence"></span>
+							<span id="feature-text"></span>
+							<span class="input-cursor"></span>
+						</div>
+					</div>
+					<div class="first-section_img">
+						<img src="images/first-section_img.png" alt="">
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="registration">
+				<div class="cont">
+					<div class="registration_img">
+						<img src="images/registration_img2.png" alt="">
+					</div>
+					<div class="registration_info">
+						<div class="block-head">
+							<div class="registration_title title">Зарегистрируйтесь <span class="line-no">бесплатно</span> и проходите курсы в <span>удобное время</span></div>
+							<div class="registration_text text">Зарегистрируйтесь на нашей платформе и получите доступ к курсам, которые помогут вам развить навыки, необходимые в современном мире бизнеса. Начните учиться уже сегодня, чтобы стать более успешным и эффективным</div>
+						</div>
+						<div class="registration_item-link">
+							<a href="#">
+								<span>Зарегистрироваться</span>
+							</a>	
+							<div class="indication">ПОЛНОСТЬЮ БЕСПЛАТНО!</div>
+						</div>	
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="advantages">
+				<div class="cont">
+					<div class="block-head">
+						<div class="advantages_title title"><span>Преимущества</span> нашей платформы</div>
+						<div class="advantages_text text">Обучение на нашей онлайн-платформе обладает множеством преимуществ,
+							включая гибкость расписания и доступность в любой точке<br> мира. Вы можете изучать темы в
+							удобное время и темпе, не пропуская важные моменты благодаря записи занятий</div>
+					</div>
+					<div class="advantages_items">
+						<div class="advantages_item">
+							<svg class="icon icon-gradient">
+								<use xlink:href="#advantages1"></use>
+							</svg>
+							<div class="advantages_item-title">Курсы от лучших коучей страны</div>
+							<div class="advantages_item-text">Получите доступ к курсам, созданным от ведущих коучей	страны</div>
+						</div>
+						<div class="advantages_item">
+							<svg class="icon icon-gradient">
+								<use xlink:href="#advantages2"></use>
+							</svg>
+							<div class="advantages_item-title">Адаптированные материалы</div>
+							<div class="advantages_item-text">Наши материалы адаптированы для наиболее эффективного и понятного обучения</div>
+						</div>
+						<div class="advantages_item">
+							<svg class="icon icon-gradient">
+								<use xlink:href="#advantages3"></use>
+							</svg>
+							<div class="advantages_item-title">Тесты и задания для погружения</div>
+							<div class="advantages_item-text">Проверьте свои знания и навыки с помощью наших тестов и заданий для погружения</div>
+						</div>
+						<div class="advantages_item">
+							<svg class="icon icon-gradient">
+								<use xlink:href="#advantages4"></use>
+							</svg>
+							<div class="advantages_item-title">Курсы доступны в любое время</div>
+							<div class="advantages_item-text">Учиться можно в любое время, даже если у вас ограниченное количество свободного времени</div>
+						</div>
+						<div class="advantages_item">
+							<svg class="icon icon-gradient">
+								<use xlink:href="#advantages5"></use>
+							</svg>
+							<div class="advantages_item-title">Видео и текстовые версии для удобства</div>
+							<div class="advantages_item-text">Мы предоставляем удобный выбор для ваших потребностей - видео и текстовые версии курсов</div>
+						</div>
+						<div class="advantages_item">
+							<svg class="icon icon-gradient">
+								<use xlink:href="#advantages6"></use>
+							</svg>
+							<div class="advantages_item-title">Лучшие получают лучшие вакансии региона</div>
+							<div class="advantages_item-text">Лучшие студенты наших курсов получат приглашения на лучшие вакансии региона</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+			<section class="numbers">
+				<div class="cont">
+					<div class="block-head">
+						<div class="numbers_title title"><span>Цифры</span> проекта</div>
+						<div class="numbers_text text">Наши цифры говорят сами за себя: доступность 24/7, возможность обучения на любом<br> устройстве и 85% успешных карьерных переходов</div>
+					</div>
+					<div class="numbers_items">
+						<div class="numbers_item">
+							<div class="numbers_item-top">
+								<div class="numbers_item-col">50</div>
+								<span>+</span>
+							</div>									
+							<div class="numbers_item-text">Курсов доступно на нашей платформе</div>
+						</div>
+						<div class="numbers_item">
+							<div class="numbers_item-top">
+								<div class="numbers_item-col">100</div>
+								<span>+</span>
+							</div>									
+							<div class="numbers_item-text">Аудио-книг в кратком пересказе</div>
+						</div>
+						<div class="numbers_item">
+							<div class="numbers_item-top">
+								<div class="numbers_item-col">100000</div>
+								<span>+</span>
+							</div>									
+							<div class="numbers_item-text">Зарегистрировано на нашей платформе</div>
+						</div>
+						<div class="numbers_item">
+							<div class="numbers_item-top">
+								<div class="numbers_item-col">10</div>
+								<span>+</span>
+							</div>									
+							<div class="numbers_item-text">Школ и Вузов сотрудничают с нами</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+			<section class="steps">
+				<div class="cont">
+					<div class="block-head">
+						<div class="numbers_title title">Как проходит <span>обучение</span> на нашей платформе</div>
+						<div class="numbers_text text">Мы предлагаем удобный и эффективный способ обучения, который состоит из нескольких последовательных этапов</div>
+					</div>
+					<div class="steps_items">
+						<div class="steps_item">
+							<a href="images/step1.jpg" data-fancybox="gallery" class="steps_item-img">
+								<img src="images/step1.jpg" alt="">
+							</a>
+							<div class="steps_item-info">
+								<div class="steps_item-title">Шаг 1: Выбор курса</div>
+								<div class="steps_item-text">Выберите курс, который наиболее соответствует вашим интересам и потребностям. Каждый курс состоит из лекций, тестов и заданий.</div>
+							</div>
+						</div>
+						<div class="steps_item">
+							<a href="images/step2.jpg" data-fancybox="gallery" class="steps_item-img">
+								<img src="images/step2.jpg" alt="">
+							</a>
+							<div class="steps_item-info">
+								<div class="steps_item-title">Шаг 2: Лекции</div>
+								<div class="steps_item-text">Посмотрите лекции, которые длительностью от 4 до 5 минут. В наших лекциях мы используем доступный язык и интересные примеры</div>
+							</div>
+						</div>
+						<div class="steps_item">
+							<a href="images/step3.jpg" data-fancybox="gallery" class="steps_item-img">
+								<img src="images/step3.jpg" alt="">
+							</a>
+							<div class="steps_item-info">
+								<div class="steps_item-title">Шаг 3: Тесты и задания</div>
+								<div class="steps_item-text">После лекций вы сможете проверить свои знания и навыки с помощью наших тестов и заданий. Наши тесты и задания помогут вам лучше усвоить материал и применить его на практике</div>
+							</div>
+						</div>
+						<div class="steps_item">
+							<a href="images/step4.jpg" data-fancybox="gallery" class="steps_item-img">
+								<img src="images/step4.jpg" alt="">
+							</a>
+							<div class="steps_item-info">
+								<div class="steps_item-title">Шаг 4: Обратная связь</div>
+								<div class="steps_item-text">Мы предоставляем обратную связь наших кураторов и экспертов, которые помогут вам в решении любых проблем и вопросов, которые у вас возникнут в процессе обучения</div>
+							</div>
+						</div>
+					</div>
+					<div class="steps_box">
+						<div class="steps_box-img">
+							<img src="images/check.svg" alt="">
+						</div>
+						<div class="steps_box-text">Мы уверены, что наш процесс обучения не только позволит вам получить необходимые знания и навыки, но и <span>поможет вам улучшить свои бизнес-навыки и научиться работать в команде.</span> Если вы хотите узнать больше о нашем обучении, <span>зарегистрируйтесь на нашей платформе и начните свой путь к успеху сегодня!</span></div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+			<section class="registration">
+				<div class="cont">					
+					<div class="registration_info">
+						<div class="block-head">
+							<div class="registration_title title">Не упустите возможность <span>стать лучше</span></div>
+							<div class="registration_text text">Зарегистрируйтесь на нашей платформе и начните учиться уже сегодня. Получите бесплатный доступ к курсам, которые помогут вам развить навыки, необходимые в современном мире бизнеса.</div>
+						</div>
+						<div class="registration_item-link">
+							<a href="#">
+								<span>Зарегистрироваться</span>
+							</a>	
+							<div class="indication">РЕГИСТРИРУЙТЕСЬ СЕЙЧАС!</div>
+						</div>	
+					</div>
+					<div class="registration_img">
+						<img src="images/registration_img3.png" alt="">
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+			<section class="examples">
+				<div class="cont">
+					<div class="block-head">
+						<div class="examples_title title">Примеры наших <span>курсов</span></div>
+						<div class="examples_text text">На нашей платформе вы найдете множество интересных и практических курсов. Ниже<br> приведены лишь некоторые из них</div>
+					</div>
+					<div class="examples_items">
+						<div class="examples_item">
+							<div class="examples_item-img">
+								<img src="images/examples1.jpg" alt="">
+							</div>
+							<div class="examples_item-title">Как найти счастье</div>
+							<div class="examples_item-text">Курс, который поможет вам научиться радоваться жизни и находить счастье в малых вещах</div>
+						</div>
+						<div class="examples_item">
+							<div class="examples_item-img">
+								<img src="images/examples2.jpg" alt="">
+							</div>
+							<div class="examples_item-title">Мотивация и самомотивация</div>
+							<div class="examples_item-text">Курс, который поможет вам научиться мотивировать себя и достигать поставленных целей</div>
+						</div>
+						<div class="examples_item">
+							<div class="examples_item-img">
+								<img src="images/examples3.jpg" alt="">
+							</div>
+							<div class="examples_item-title">Как полюбить работу</div>
+							<div class="examples_item-text">Курс, который поможет вам найти работу своей мечты и полюбить ее</div>
+						</div>
+						<div class="examples_item">
+							<div class="examples_item-img">
+								<img src="images/examples4.jpg" alt="">
+							</div>
+							<div class="examples_item-title">Как найти хобби</div>
+							<div class="examples_item-text">Курс, который поможет вам найти хобби и увлечения, которые сделают вашу жизнь более интересной и насыщенной</div>
+						</div>
+						<div class="examples_item">
+							<div class="examples_item-img">
+								<img src="images/examples5.jpg" alt="">
+							</div>
+							<div class="examples_item-title">Как перестать стесняться</div>
+							<div class="examples_item-text">Курс, который поможет вам научиться переставать стесняться и уверенно выступать в любой ситуации</div>
+						</div>
+						<div class="examples_item">
+							<div class="examples_item-img">
+								<img src="images/examples6.jpg" alt="">
+							</div>
+							<div class="examples_item-title">Основы переговоров</div>
+							<div class="examples_item-text">Курс, который поможет вам научиться эффективно вести переговоры и достигать поставленных целей</div>
+						</div>
+					</div>
+					<div class="examples_item-link">
+						<a href="#">
+							<span>Зарегистрироваться</span>
+						</a>	
+						<div class="indication">Это лишь малая часть. Регистрируйся  прямо   сейчас и получи доступ к 10 000+ курсов</div>
+					</div>					
+				</div>
+			</section>
+
+
+
+			<section class="director">
+				<div class="cont">
+					<div class="director_left">
+						<div class="director_photo">
+							<img src="images/director.png" alt="">
+						</div>	
+						<div class="director_left-info">
+							<div class="director_left-name">Василий Иванович Петров</div>
+							<div class="director_left-post">Руководитель платформы “Область знаний”</div>
+						</div>
+					</div>
+					<div class="director_right">
+						<div class="block-head">
+							<div class="director_title title">Примеры наших <span>курсов</span></div>
+							<div class="director_text text">
+								<p>Дорогие студенты,</p>
+								<p>От имени нашей онлайн-платформы для обучения, я хотел бы поблагодарить вас за то, что вы выбрали нас в качестве своего партнера в обучении. Наша цель - обеспечить вас всеми необходимыми знаниями и навыками, чтобы помочь вам достичь успеха в вашей карьере и жизни.</p>
+								<p>Мы предлагаем широкий спектр онлайн-курсов и инструментов обучения, которые позволяют вам изучать темы, наиболее подходящие для вашей учебной программы. Мы также стремимся обеспечить нашим студентам высококачественный сервис и поддержку на протяжении всего процесса обучения.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+			<section class="registration">
+				<div class="cont">
+					<div class="registration_img">
+						<img src="images/registration_img.png" alt="">
+					</div>
+					<div class="registration_info">
+						<div class="block-head">
+							<div class="registration_title title">Регистрируйтесь и начните<br> учиться <span>уже сегодня!</span></div>
+							<div class="registration_text text">Зарегистрируйтесь на нашей платформе и начните учиться уже сегодня. Получите бесплатный доступ к курсам, которые помогут вам развить навыки, необходимые в современном мире бизнеса</div>
+						</div>
+						<div class="registration_item-link">
+							<a href="#">
+								<span>Зарегистрироваться</span>
+							</a>	
+							<div class="indication">100 000+ курсов уже сегодня!</div>
+						</div>	
+					</div>
+				</div>
+			</section>
+
+
+		</div>
+
+
+		<footer>
+			<div class="cont">
+				<div class="footer_wrap">
+					<div class="footer_left">
+						<div class="footer_left-logo">
+							<img src="images/logo2.png" alt="">
+						</div>
+						<a href="mailto:admin@gmail.com">admin@gmail.com</a>
+					</div>
+					<div class="footer_right">
+						<div class="footer_right-text">Бесплатный доступ <br>к развитию в регионе</div>
+						<a href="tel:88001231213">8(800)123-12-13</a>
+					</div>
+				</div>
+				<div class="footer_copy">© 2023 Все права защищены. областьзнаний.рф</div>
+			</div>
+		</footer>
+
+
+
+		<div class="overlay"></div>
+	</div>
+
+
+	<div class="supports_error">
+		Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+	</div>
+
+
+
+	<!-- <section class="modal" id="modal_callback">
+		<div class="modal_title title">Заказать звонок</div>
+		<div class="modal_text">Оставьте заявку. И оператор с вами свяжется в ближайшие 2 часа!</div>
+		<form>
+			<div class="line">
+				<div class="field">
+					<label for="name">Ваше имя</label>
+					<input type="text" id="name" placeholder="Евгений">
+				</div>
+			</div>
+			<div class="line">
+				<div class="field">
+					<label for="phone">Контактный номер телефона</label>
+					<input type="tel" id="phone" class="success" placeholder="+7 (___) ___-__-__">
+				</div>
+			</div>
+			<div class="modal_politic">Заполняя форму, вы соглашаетесь с обработкой персональных данных согласно <a
+					href="#">пользовательского соглашения</a></div>
+			<button type="submit" class="modal_link" data-content="#modal_callback3">
+				<span>Заказать звонок</span>
+			</button>
+		</form>
+	</section>
+
+
+
+	<section class="modal" id="modal_callback2">
+		<div class="modal_title title">Оставить заявку</div>
+		<div class="modal_text">Оставьте заявку. И оператор с вами свяжется в ближайшие 2 часа!</div>
+		<form>
+			<div class="line">
+				<div class="field">
+					<label for="name">Ваше имя</label>
+					<input type="text" id="name" placeholder="Евгений">
+				</div>
+			</div>
+			<div class="line">
+				<div class="field">
+					<label for="phone">Контактный номер телефона</label>
+					<input type="tel" class="success" id="phone" placeholder="+7 (___) ___-__-__">
+				</div>
+			</div>
+			<div class="line">
+				<div class="field">
+					<label for="message">Ваше сообщение</label>
+					<textarea placeholder="Есть над чем задуматься: диаграммы связей..." id="message"></textarea>
+				</div>
+			</div>
+			<div class="modal_politic">Заполняя форму, вы соглашаетесь с обработкой персональных данных согласно <a
+					href="#">пользовательского соглашения</a></div>
+			<button type="submit" class="modal_link" data-content="#modal_callback3">
+				<span>Оставить заявку</span>
+			</button>
+		</form>
+	</section>
+
+
+
+	<section class="modal2" id="modal_callback3">
+		<div class="modal_img">
+			<img src="images/subtract.svg" alt="">
+		</div>
+		<div class="modal_title title">Спасибо!</div>
+		<div class="modal_text">Ваша заявка отправлена!</div>
+		<div class="modal_desc">Мы с вами свяжемся<br> в ближайшее время.</div>
+	</section> -->
+
+
+
+
+
+	<svg width="0" height="0" class="hidden">
+
+		<symbol width="66" height="51" viewBox="0 0 66 51" xmlns="http://www.w3.org/2000/svg" id="advantages1">
+			<path
+				d="M60 1.5C56.67 0.45 53.01 0 49.5 0C43.65 0 37.35 1.2 33 4.5C28.65 1.2 22.35 0 16.5 0C10.65 0 4.35 1.2 0 4.5V48.45C0 49.2 0.75 49.95 1.5 49.95C1.8 49.95 1.95 49.8 2.25 49.8C6.3 47.85 12.15 46.5 16.5 46.5C22.35 46.5 28.65 47.7 33 51C37.05 48.45 44.4 46.5 49.5 46.5C54.45 46.5 59.55 47.4 63.75 49.65C64.05 49.8 64.2 49.8 64.5 49.8C65.25 49.8 66 49.05 66 48.3V4.5C64.2 3.15 62.25 2.25 60 1.5ZM6 42V7.5C9.3 6.45 12.9 6 16.5 6C20.52 6 25.89 7.23 30 8.97V43.47C25.89 41.73 20.52 40.5 16.5 40.5C12.9 40.5 9.3 40.95 6 42ZM60 42C56.7 40.95 53.1 40.5 49.5 40.5C45.48 40.5 40.11 41.73 36 43.47V8.97C40.11 7.2 45.48 6 49.5 6C53.1 6 56.7 6.45 60 7.5V42Z"
+				fill="url(#gradientPrimary2)"/>
+			<path
+				d="M30 8.97C25.89 7.23 20.52 6 16.5 6C12.9 6 9.3 6.45 6 7.5V42C9.3 40.95 12.9 40.5 16.5 40.5C20.52 40.5 25.89 41.73 30 43.47V8.97Z"
+				fill="url(#gradientPrimary2)"/>
+			<path fill-rule="evenodd" clip-rule="evenodd"
+				d="M49.5 18C52.14 18 54.69 18.27 57 18.78V14.22C54.63 13.77 52.08 13.5 49.5 13.5C45.66 13.5 42.12 13.98 39 14.91V19.62C41.97 18.57 45.54 18 49.5 18ZM49.5 25.9801C52.14 25.9801 54.69 26.2501 57 26.7601V22.2001C54.63 21.7501 52.08 21.4801 49.5 21.4801C45.66 21.4801 42.12 21.9601 39 22.8901V27.6001C41.97 26.5801 45.54 25.9801 49.5 25.9801ZM57 34.7699C54.69 34.2599 52.14 33.9899 49.5 33.9899C45.54 33.9899 41.97 34.5599 39 35.6099V30.8999C42.12 29.9699 45.66 29.4899 49.5 29.4899C52.08 29.4899 54.63 29.7599 57 30.2099V34.7699Z"
+				fill="url(#gradientPrimary2)"/>
+			<defs>
+				<linearGradient id="gradientPrimary" x1="0" y1="25.5" x2="66" y2="25.5" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#9AC731"/>
+					<stop offset="1" stop-color="#AFED1F"/>
+					</linearGradient>
+					<linearGradient id="gradientPrimary" x1="30" y1="28.5" x2="6" y2="28.5" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#9AC731" stop-opacity="0.43"/>
+					<stop offset="1" stop-color="#AFED1F" stop-opacity="0.33"/>
+					</linearGradient>
+					<linearGradient id="gradientPrimary" x1="39" y1="36" x2="57" y2="36" gradientUnits="userSpaceOnUse">
+					<stop stop-color="#9AC731"/>
+					<stop offset="1" stop-color="#AFED1F"/>
+				</linearGradient>
+			</defs>
+		</symbol>
+
+
+		<symbol width="48" height="53" viewBox="0 0 48 53" fill="none" xmlns="http://www.w3.org/2000/svg" id="advantages2">
+			<path d="M5.3 47.7001H42.4V10.6001H5.3V47.7001ZM11.6865 28.0636L18.55 34.9006L36.0135 17.4371L39.75 21.2001L18.55 42.4001L7.95 31.8001L11.6865 28.0636Z" fill="url(#paint0_linear_2695_19020)"/>
+			<path d="M39.75 21.2L36.0135 17.437L18.55 34.9005L11.6865 28.0635L7.95 31.8L18.55 42.4L39.75 21.2ZM42.4 5.3H31.323C30.21 2.226 27.295 0 23.85 0C20.405 0 17.49 2.226 16.377 5.3H5.3C4.929 5.3 4.5845 5.3265 4.24 5.406C3.2065 5.618 2.279 6.148 1.5635 6.8635C1.0865 7.3405 0.689 7.9235 0.424 8.5595C0.159 9.1955 0 9.858 0 10.6V47.7C0 48.4155 0.159 49.131 0.424 49.767C0.689 50.403 1.0865 50.9595 1.5635 51.463C2.279 52.1785 3.2065 52.7085 4.24 52.9205C4.5845 52.9735 4.929 53 5.3 53H42.4C45.315 53 47.7 50.615 47.7 47.7V10.6C47.7 7.685 45.315 5.3 42.4 5.3ZM23.85 4.6375C24.9365 4.6375 25.8375 5.5385 25.8375 6.625C25.8375 7.7115 24.9365 8.6125 23.85 8.6125C22.7635 8.6125 21.8625 7.7115 21.8625 6.625C21.8625 5.5385 22.7635 4.6375 23.85 4.6375ZM42.4 47.7H5.3V10.6H42.4V47.7Z" fill="url(#paint1_linear_2695_19020)"/>
+			<defs>
+			<linearGradient id="paint0_linear_2695_19020" x1="42.4" y1="32.8779" x2="5.3" y2="32.8779" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#9AC731" stop-opacity="0.43"/>
+			<stop offset="1" stop-color="#AFED1F" stop-opacity="0.33"/>
+			</linearGradient>
+			<linearGradient id="paint1_linear_2695_19020" x1="0" y1="26.5" x2="47.7" y2="26.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#9AC731"/>
+			<stop offset="1" stop-color="#AFED1F"/>
+			</linearGradient>
+			</defs>
+		</symbol>
+
+		<symbol width="46" height="52" viewBox="0 0 46 52" fill="none" xmlns="http://www.w3.org/2000/svg" id="advantages3">
+			<path d="M5.11111 10.2222V45.9999H40.8889V10.2222H5.11111ZM28.1111 40.8888H10.2222V35.7777H28.1111V40.8888ZM35.7778 30.6666H10.2222V25.5555H35.7778V30.6666ZM35.7778 20.4444H10.2222V15.3333H35.7778V20.4444Z" fill="url(#paint0_linear_2695_19054)"/>
+			<path d="M10.2222 35.7778H28.1111V40.8889H10.2222V35.7778ZM10.2222 25.5556H35.7778V30.6667H10.2222V25.5556ZM10.2222 15.3333H35.7778V20.4444H10.2222V15.3333ZM40.8889 5.11111H30.2067C29.1333 2.14667 26.3222 0 23 0C19.6778 0 16.8667 2.14667 15.7933 5.11111H5.11111C4.75333 5.11111 4.42111 5.13667 4.08889 5.21333C3.09222 5.41778 2.19778 5.92889 1.50778 6.61889C1.04778 7.07889 0.664445 7.64111 0.408889 8.25444C0.153334 8.86778 0 9.50667 0 10.2222V46C0 46.69 0.153334 47.38 0.408889 47.9933C0.664445 48.6067 1.04778 49.1433 1.50778 49.6289C2.19778 50.3189 3.09222 50.83 4.08889 51.0344C4.42111 51.0856 4.75333 51.1111 5.11111 51.1111H40.8889C43.7 51.1111 46 48.8111 46 46V10.2222C46 7.41111 43.7 5.11111 40.8889 5.11111ZM23 4.47222C24.0478 4.47222 24.9167 5.34111 24.9167 6.38889C24.9167 7.43667 24.0478 8.30556 23 8.30556C21.9522 8.30556 21.0833 7.43667 21.0833 6.38889C21.0833 5.34111 21.9522 4.47222 23 4.47222ZM40.8889 46H5.11111V10.2222H40.8889V46Z" fill="url(#paint1_linear_2695_19054)"/>
+			<defs>
+			<linearGradient id="paint0_linear_2695_19054" x1="40.8889" y1="31.706" x2="5.11111" y2="31.706" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#9AC731" stop-opacity="0.43"/>
+			<stop offset="1" stop-color="#AFED1F" stop-opacity="0.33"/>
+			</linearGradient>
+			<linearGradient id="paint1_linear_2695_19054" x1="0" y1="25.5556" x2="46" y2="25.5556" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#9AC731"/>
+			<stop offset="1" stop-color="#AFED1F"/>
+			</linearGradient>
+			</defs>
+		</symbol>
+
+		<symbol width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg" id="advantages4">
+			<path d="M25.5 5.09998C14.229 5.09998 5.09998 14.229 5.09998 25.5C5.09998 36.771 14.229 45.9 25.5 45.9C36.771 45.9 45.9 36.771 45.9 25.5C45.9 14.229 36.771 5.09998 25.5 5.09998ZM36.3375 36.0825L22.95 28.05V12.75H26.775V26.1375L38.25 32.946L36.3375 36.0825Z" fill="url(#paint0_linear_2695_19064)"/>
+			<path d="M25.4745 0C11.3985 0 0 11.424 0 25.5C0 39.576 11.3985 51 25.4745 51C39.576 51 51 39.576 51 25.5C51 11.424 39.576 0 25.4745 0ZM25.5 45.9C14.229 45.9 5.1 36.771 5.1 25.5C5.1 14.229 14.229 5.1 25.5 5.1C36.771 5.1 45.9 14.229 45.9 25.5C45.9 36.771 36.771 45.9 25.5 45.9ZM26.775 12.75H22.95V28.05L36.3375 36.0825L38.25 32.946L26.775 26.1375V12.75Z" fill="url(#paint1_linear_2695_19064)"/>
+			<defs>
+			<linearGradient id="paint0_linear_2695_19064" x1="45.9" y1="29.5996" x2="5.09997" y2="29.5996" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#9AC731" stop-opacity="0.43"/>
+			<stop offset="1" stop-color="#AFED1F" stop-opacity="0.33"/>
+			</linearGradient>
+			<linearGradient id="paint1_linear_2695_19064" x1="0" y1="25.5" x2="51" y2="25.5" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#9AC731"/>
+			<stop offset="1" stop-color="#AFED1F"/>
+			</linearGradient>
+			</defs>
+		</symbol>
+
+		
+		<symbol width="56" height="53" viewBox="0 0 56 53" xmlns="http://www.w3.org/2000/svg" id="advantages6">
+			<path d="M5.57895 16.7368H50.2105V47.421H5.57895V16.7368Z" fill="url(#gradientPrimary2)"/>
+			<path d="M50.2105 11.1579H39.0526V5.57895C39.0526 2.48263 36.57 0 33.4737 0H22.3158C19.2195 0 16.7368 2.48263 16.7368 5.57895V11.1579H5.57895C2.48263 11.1579 0.0278947 13.6405 0.0278947 16.7368L0 47.4211C0 50.5174 2.48263 53 5.57895 53H50.2105C53.3068 53 55.7895 50.5174 55.7895 47.4211V16.7368C55.7895 13.6405 53.3068 11.1579 50.2105 11.1579ZM22.3158 5.57895H33.4737V11.1579H22.3158V5.57895ZM50.2105 47.4211H5.57895V16.7368H50.2105V47.4211Z" fill="url(#gradientPrimary2)"/>
+			<defs>
+			<linearGradient id="gradientPrimary" x1="50.2105" y1="35.1621" x2="5.57895" y2="35.1621" gradientUnits="userSpaceOnUse">
+			</linearGradient>
+			<linearGradient id="gradientPrimary" x1="0" y1="26.5" x2="55.7895" y2="26.5" gradientUnits="userSpaceOnUse">
+			</linearGradient>
+			</defs>
+		</symbol>
+
+
+		<linearGradient id="gradientPrimary" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#9AC731" />
+            <stop offset="100%" stop-color="#AFED1F" />
+        </linearGradient>
+
+		<linearGradient id="gradientPrimary2" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="rgba(154, 199, 49, 0.43)" />
+            <stop offset="100%" stop-color="rgba(175, 237, 31, 0.33)" />
+        </linearGradient>
+
+
+	</svg>
+
+
+
+	<!-- Подключение javascript файлов -->
+	<script src="js/jquery-3.5.0.min.js"></script>
+	<script src="js/fancybox.min.js"></script>
+	<script src="js/lozad.min.js"></script>
+	<script src="js/inputmask.min.js"></script>
+	<script src="js/jquery.spincrement.min.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/scripts.js"></script>
+
+
+</body>
+
+</html>

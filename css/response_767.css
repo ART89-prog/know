@@ -1,0 +1,11 @@
+@media print, (max-width: 767px) {
+
+    :root {
+        --font_size: 14px;
+        --font_size_title: 28px;
+    }
+
+
+
+
+}
