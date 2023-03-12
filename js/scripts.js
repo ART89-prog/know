@@ -46,10 +46,6 @@ $(() => {
   });
 
 
-  // Фокус при клике на название поля
-  $('body').on('click', 'form label', function () {
-    $(this).closest('.line').find('input, textarea').focus()
-  })
 
 
 
@@ -116,34 +112,6 @@ $(() => {
     }]);
   })
 
-  // Показать контент
-  $(".hide-content").hide();
-  $(".object_link").click(function (e) {
-    e.preventDefault();
-    $(this).next(".hide-content").slideToggle();
-    $(".object_link").addClass("active");
-  });
-
-
-  // Аккордион
-  $('body').on('click', '.accordion .accordion_item .accordion_item-head', function (e) {
-    e.preventDefault()
-
-    const $item = $(this).closest('.accordion_item'),
-      $accordion = $(this).closest('.accordion')
-
-    if ($item.hasClass('active')) {
-      $item.removeClass('active').find('.accordion_item-data').slideUp(300)
-    } else {
-      $accordion.find('.accordion_item').removeClass('active')
-      $accordion.find('.accordion_item-data').slideUp(300)
-
-      $item.addClass('active').find('.accordion_item-data').slideDown(300)
-    }
-  })
-
-
-  $('select').niceSelect();
 
 
   $(document).on('change', '.error', function () {
