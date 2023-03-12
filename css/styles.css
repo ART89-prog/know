@@ -862,18 +862,16 @@ header .cont {
 
 
 .director {
-    padding: 40px 0 70px;
+    padding: 40px 0 25px;
 }
 .director .cont {
     display: flex;
     justify-content: space-between;
 }
-.director_left {
-    position: relative;    
-}
 .director_photo {
     width: 675px;
-    height: 672px;    
+    height: 672px; 
+    position: relative;      
 }
 .director_photo img {
     object-fit: cover;
@@ -908,9 +906,10 @@ header .cont {
 }
 .director .block-head .text {
     text-align: start;
+    max-width: 539px;
 }
 .director .block-head .text p {
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 .director .block-head .text p:last-child {
     margin-bottom: 0px;
@@ -921,6 +920,16 @@ header .cont {
 }
 .director .block-head .title span:before {
     display: none;
+}
+.director_right {
+    width: calc(100% - 729px);
+    margin-top: 117px;
+}
+.director-signature {
+    margin-top: 34px;
+}
+.director .block-head {
+    margin-bottom: 0px;
 }
 
 
@@ -1039,9 +1048,13 @@ header .cont {
 }
 
 
+.registration3 .registration_img {
+    left: 16px;
+}
 
 
 footer {
+    margin-top: 63px;
     padding: 68px 0 83px;
     background: #212121;
 }
