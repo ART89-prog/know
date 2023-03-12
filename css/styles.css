@@ -284,8 +284,8 @@ button {
 
 header .mob_menu_btn {
     display: none;
-    width: 98px;
-    height: 90px;
+    width: 45px;
+    height: 40px;
     margin-right: 0px;
     margin-left: 30px;
     justify-content: center;
@@ -305,8 +305,12 @@ header .close_btn {
     flex-wrap: wrap;
     margin-right: 0px;
     margin-left: 30px;
-    width: 98px;
-    height: 90px;
+    width: 45px;
+    height: 45px;
+    z-index: 500;
+}
+header .close_btn img {
+    width: 40px;
 }
 
 header .menu {
@@ -1025,6 +1029,7 @@ header .cont {
     display: block;
     margin-right: 25px;
     transition: all .4s;
+    flex-shrink: 0;
 }
 .registration_item-link a:hover {
     color: #fff;

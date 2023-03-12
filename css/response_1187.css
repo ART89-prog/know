@@ -9,16 +9,16 @@
         position: fixed;
         z-index: 107;
         right: 100%;
-        top: 0px;
+        top: 129px;
         display: flex;
         overflow: auto;
         width: 100%;
-        height: calc(100% - 110px);
+        height: 100%;
         min-height: -moz-available;
         min-height: -webkit-fill-available;
         min-height:         fill-available;
         margin: 0;
-        padding: 270px 20px 20px;
+        padding: 50px 30px 50px;
         transition: transform .3s linear;
         background: #fff;
         justify-content: flex-start;
@@ -36,14 +36,6 @@
     .menu_open header .close_btn {
         display: flex;
         z-index: 120;
-        position: absolute;
-        top: 0px;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-left: 0;
-        width: 100%;
-        height: 100%;
-        background: #fff;
     }
     header .menu .item {
         width: 100%;
@@ -84,6 +76,23 @@
     .mob_menu_btn.active span:after {
         top: 0;
         transform: rotate(-45deg);
+    }
+    .header_logo {
+        margin-right: auto;
+    }
+    .first-section {
+        margin-top: 150px;
+    }
+    header {
+        box-shadow: 0px 10px 11px 5px rgba(0,0,0,0.17);
+        padding: 20px 0;
+    }
+    header .menu .item a {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        color: #000;
     }
  
 
