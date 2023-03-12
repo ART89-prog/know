@@ -4,6 +4,205 @@
         --font_size: 15px;
         --font_size_title: 24px;
     }
+    .header_btn {
+        display: none;
+    }
+    .header_btn-mob {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .header_btn-mob .btn-registration {
+        margin-left: 0;
+        width: 254px;
+    }
+    .btn-entry {
+        width: 254px;
+        height: 43px;
+        border: 2px solid var(--text_bg1);
+        border-radius: 38px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 39px;
+        text-align: center;
+        color: var(--text_bg1);
+        transition: all .4s;   
+        margin-bottom: 15px;
+    }
+    .first-section_title {
+        font-size: 34px;
+        text-align: center;
+    }
+    .first-section_text {
+        font-size: 20px;
+    }
+    .first-section_img {
+        width: 410px;
+        height: 347px;
+    }
+    #feature-text {
+        font-size: 26px;
+    }
+    .registration {
+        padding: 20px 0;
+    }
+    .registration .block-head .title span:before {
+        width: 178px;
+    }
+    .registration .text {
+        font-size: 16px;
+    }
+    .registration .block-head .title {
+        margin-bottom: 25px;
+    }
+    .registration .indication {
+        display: none;
+    }
+    .registration_item-link a {
+        margin: 0 auto;
+    }
+    .registration_img {
+        width: 240px;
+        height: 295px;
+    }
+    .registration_img img {
+        width: 100%;
+        height: 100%;
+    }
+    .registration_info {
+        padding: 25px 30px 300px 30px;
+    }
+    .advantages .block-head .title span:before {
+        width: 173px;
+    }
+    .advantages_items > * {
+        width: calc(100%/2 - 20px);
+    }
+    .advantages_item-title {
+        margin-top: 12px;
+        font-size: 17px;
+    }
+    .advantages_item:nth-child(3), .advantages_item:nth-child(4) {
+        width: calc(100%/2 - 20px);
+    }
+    .numbers_items {
+        flex-wrap: wrap;
+    }
+    .numbers_items > * {
+        width: calc(100%/2 - 20px);
+        padding: 20px;
+    }
+    .steps .block-head .title span:before {
+        width: 110px;
+    }
+    .indication_text {
+        display: none;
+    }
+    .steps .block-head {
+        margin-bottom: 25px;
+    }
+    .steps_items {
+        margin-bottom: -30px;
+    }
+    .steps_items > * {
+        width: 100%;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    .steps_item-title {
+        font-size: 19px;
+        margin-bottom: 8px;
+    }
+    .steps_box {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .steps_box-img img {
+        width: 40px;
+        height: 40px;
+    }
+    .steps_box-text {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .registration .block-head .title span:before {
+        width: 142px;
+    }
+    .registration2 .registration_img {
+        width: 240px;
+        height: 231px;
+    }
+    .registration2 .registration_img img {
+        width: 100%;
+        height: 100%;
+    }
+    .registration2 .registration_info {
+        padding: 25px 30px 240px 30px;
+    }
+    .examples .block-head .title span:before {
+        width: 85px;
+    }
+    .examples_items > * {
+        width: calc(100%/2 - 20px);
+        padding: 15px;
+    }
+    .examples_item-title {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    .indication {
+        display: none;
+    }
+    .examples_item-link a {
+        margin: 0 auto;
+    }
+    .director_photo {
+        width: 410px;
+        height: 410px;
+    }
+    .director_left-info {
+        padding: 8px 10px;
+        right: 20px;
+    }
+    .registration3 .registration_img {
+        width: 240px;
+        height: 262px;
+    }
+    .footer_copy {
+        font-size: 17px;
+        line-height: 22px;
+        margin-top: 20px;
+    }
+    .footer_left {
+        padding-right: 15px;
+    }
+    .footer_left a,
+    .footer_right a {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .footer_right {
+        margin-left: 15px;
+    }
+    .footer_right-text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 17px;
+        margin-top: 0px;
+    }
+    .footer_left-logo {
+        width: 180px;
+        height: 34px;
+    }
+    .footer_left-logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
 
 
 

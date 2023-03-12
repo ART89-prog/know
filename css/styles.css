@@ -391,6 +391,9 @@ header .cont {
 .block {
     scroll-margin-top: 90px;
 }
+.header_btn-mob {
+    display: none;
+}
 
 
 
@@ -1109,6 +1112,7 @@ footer {
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, .35);
     transition: all .4s;
+    white-space: nowrap;
 }
 .footer_left a:hover {
     color: #fff;
@@ -1128,6 +1132,7 @@ footer {
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, .35);
     transition: all .4s;
+    white-space: nowrap;
 }
 .footer_right a:hover {
     color: #fff;
