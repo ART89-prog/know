@@ -526,8 +526,17 @@ header .cont {
     stroke-width: 0px;
 }
 .icon.icon-gradient {
-    stroke: url(#gradientPrimary);
+    /* stroke: url(#gradientPrimary); */
+    fill: url(#gradientPrimary1);
     fill: url(#gradientPrimary2);
+}
+.advantages_item:hover .af {
+    stop-color: #fff;
+    --text_bg1: #000;
+    --text_bg2: #000;
+}
+.advantages_item:hover {
+    background: linear-gradient(264.41deg, #C0E654 1.1%, #9AC731 100%);
 }
 .advantages_item-title {
     margin-top: 37px;
