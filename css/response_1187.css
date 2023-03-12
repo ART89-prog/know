@@ -1,5 +1,10 @@
 @media print, (max-width: 1187px) {
 
+
+    :root {
+        --font_size: 16px;
+        --font_size_title: 35px;
+    }
     header .mob_menu_btn {
         display: flex;
         flex-shrink: 0;
@@ -81,7 +86,7 @@
         margin-right: auto;
     }
     .first-section {
-        margin-top: 150px;
+        margin-top: 140px;
     }
     header {
         box-shadow: 0px 10px 11px 5px rgba(0,0,0,0.17);
@@ -94,6 +99,177 @@
         margin-bottom: 30px;
         color: #000;
     }
+    .first-section_img {
+        width: 500px;
+        height: 433px;
+    }
+    .first-section_info {
+        margin-top: 30px;
+        width: calc(100% - 500px);
+    }
+    .first-section_title {
+        font-size: 50px;
+    }
+    .registration {
+        padding: 40px 0;
+    }
+    .block {
+        padding: 40px 0 40px;
+    }
+    .block-head .text br {
+        display: none;
+    }
+    .advantages_items {
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
+    .advantages_items > * {
+        width: calc(100%/3 - 20px);
+        padding: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .advantages_item:nth-child(3), .advantages_item:nth-child(4) {
+        width: calc(100%/3 - 20px);
+        padding: 20px;
+    }
+    .advantages_item-title {
+        margin-top: 25px;
+        font-size: 22px;
+    }
+    .numbers_items {
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
+    .numbers_items > * {
+        width: calc(100%/4 - 20px);
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 25px;
+        border-radius: 20px;
+    }
+    .steps_item {
+        flex-direction: column;
+    }
+    .steps_item-info {
+        margin-left: 0;
+    }
+    .steps_items {
+        margin-left: -50px;
+        margin-bottom: -60px;
+    }
+    .steps_items > * {
+        width: calc(100%/2 - 60px);
+        margin-left: 50px;
+        margin-bottom: 60px;
+        display: flex;
+        align-items: start;
+    }
+    .steps_item a {
+        margin: 0 auto;
+        display: block;
+    }
+    .steps_item-title {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .steps_item-text {
+        text-align: center;
+    }
+    .steps_box {
+        margin-top: 35px;
+    }
+    .steps_item:nth-child(1) .steps_item-indication {
+        right: calc(-100% - 45px);
+    }
+    .block-head .title {
+        line-height: 130%;
+    }
+    .registration .block-head .title span:before {
+        width: 261px;
+        height: 14px;
+        bottom: -16px;
+    }
+    .registration .indication:before {
+        top: 17px;
+    }
+    .block-head .title span:before {
+        width: 257px;
+        height: 16px;
+        bottom: -11px;
+    }
+    .numbers .block-head .title span:before {
+        width: 130px;
+        height: 14px;
+        bottom: -11px;
+    }
+    .block-head {
+        margin-bottom: 35px;
+    }
+    .registration2 .block-head .title span:before {
+        width: 205px;
+        height: 14px;
+        bottom: -16px;
+    }
+    .examples .block-head .title span:before {
+        width: 122px;
+        height: 14px;
+        bottom: -12px;
+    }
+    .examples_items {
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
+    .examples_items > * {
+        padding: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        width: calc(100%/3 - 20px);
+        border-radius: 20px;
+    }
+    .examples_item-title {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    .examples_item-link {
+        margin-top: 50px;
+    }
+    .director_photo {
+        width: 486px;
+        height: 490px;
+    }
+    .director_left-info {
+        right: -10px;
+    }
+    .director_right {
+        width: calc(100% - 515px);
+        margin-top: 20px;
+    }
+    .director-signature {
+        margin-top: 10px;
+    }
+    .registration3 .block-head .title span:before {
+        width: 221px;
+    }
+    .registration .indication:before {
+        top: 38px;
+    }
+    footer {
+        margin-top: 20px;
+    }
+    .steps .block-head .title span:before {
+        width: 161px;
+        height: 17px;
+        bottom: -11px;
+    }
+    header .menu {
+        top: 92px;
+    }
+    .menu_open header {
+        border-bottom: 1px solid #333;
+    }
+
  
 
 

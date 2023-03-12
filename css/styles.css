@@ -310,7 +310,7 @@ header .close_btn {
     z-index: 500;
 }
 header .close_btn img {
-    width: 40px;
+    width: 29px;
 }
 
 header .menu {
@@ -857,6 +857,7 @@ header .cont {
     display: block;
     margin-right: 25px;
     transition: all .4s;
+    flex-shrink: 0;
 }
 .examples_item-link a:hover {
     color: #fff;

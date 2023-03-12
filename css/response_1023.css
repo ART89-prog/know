@@ -1,12 +1,204 @@
 @media print, (max-width: 1023px) {
  
-    /* :root {
+    :root {
         --font_size: 16px;
-        --font_size_title: 40px;
-    } */
+        --font_size_title: 28px;
+    }
+    .block-head .title span:before {
+        width: 203px;
+    }
+    .indication:before {
+        width: 102px;
+        height: 60px;
+        left: 15px;
+        top: 10px;
+        background-repeat: no-repeat;
+    }
+    .first-section .cont {
+        flex-direction: column;
+    }
+    .first-section_info {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .first-section_title {
+        font-size: 44px;
+        margin-bottom: 26px;
+    }
+    .first-section_title br {
+        display: none;
+    }
+    #feature-text {
+        font-size: 34px;
+    }
+    .first-section_img {
+        margin: 24px auto 0;
+    }
+    .first-section {
+        margin-bottom: 20px;
+    }
+    .registration_info {
+        padding: 25px 30px 395px 30px;
+    }
+    .registration .block-head .title {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .registration .block-head .title span:before {
+        width: 202px;
+    }
+    .registration .text {
+        font-size: 18px;
+        text-align: center;
+    }
+    .registration .indication:before {
+        top: 15px;
+    }
+    .registration_img {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .registration .block-head {
+        margin-bottom: 30px;
+    }
+    .registration {
+        padding: 30px 0;
+    }
+    .block {
+        padding: 30px 0 30px;
+    }
+    .advantages_item-title {
+        margin-top: 18px;
+        font-size: 20px;
+    }
+    .numbers .block-head .title span:before {
+        width: 104px;
+    }
+    .numbers_item-top {
+        font-size: 30px;
+        margin-bottom: 7px;
+    }
+    .numbers_items > * {
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .block-head {
+        margin-bottom: 25px;
+    }
+    .steps .block-head .title span:before {
+        width: 128px;
+    }
+    .steps .block-head .text {
+        max-width: 100%;
+        text-align: center;
+    }
+    .steps .block-head {
+        margin-bottom: 85px;
+    }
+    .indication_text:before {
+        width: 105px;
+        height: 101px;
+        left: -94px;
+        top: 15px;
+        background-repeat: no-repeat;
+    }
+    .steps_item:nth-child(1) .steps_item-indication {
+        top: -85px;
+    }
+    .steps_box-text {
+        margin-left: 25px;
+    }
+    .registration2 .registration_info {
+        padding: 25px 30px 395px 30px;
+    }
+    .registration2 .block-head .title span:before {
+        width: 163px;
+    }
+    .registration2 .registration_img {
+        right: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .registration .indication {
+        font-size: 22px;
+        padding-left: 120px;
+    }
+    .registration .indication:before {
+        top: -9px;
+    }
+    .examples .block-head .title span:before {
+        width: 96px;
+    }
+    .block-head .title {
+        margin-bottom: 18px;
+    }
+    .examples_item-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .indication {
+        font-size: 22px;
+        padding-left: 130px;
+    }
+    .director .cont {
+        flex-direction: column-reverse;
+    }
+    .director_right {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 0px;
+    }
+    .director .block-head .title br {
+        display: none;
+    }
+    .director .block-head .title {
+        text-align: center;
+    }
+    .director .block-head .text {
+        max-width: 100%;
+    }
+    .director .block-head .text {
+        text-align: center;
+    }
+    .director .block-head .text p {
+        margin-bottom: 15px;
+    }
+    .director-signature {
+        margin-top: 0px;
+    }
+    .director_photo {
+        margin: 0 auto;
+    }
+    .registration3 .block-head .title span:before {
+        width: 174px;
+    }
+    .registration3 .registration_img {
+        left: 50%;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    .registration .indication:before {
+        width: 100px;
+        height: 59px;
+        left: 0;
+        top: 10px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .director-signature {
+        width: 170px;
+        height: 73px;
+    }
+    .director-signature img {
+        width: 100%;
+        height: 100%;
+    }
 
 
-    
+
+
+
 
     
 }
