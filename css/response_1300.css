@@ -25,6 +25,9 @@
     .steps .block-head .text {
         margin-left: 0;
     }
+    header .menu .item a {
+        margin-right: 18px;
+    }
 
 
 

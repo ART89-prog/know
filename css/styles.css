@@ -797,35 +797,47 @@ header .cont {
     display: flex;
     align-items: stretch;
     flex-wrap: wrap;
-    margin-left: -49px;
-    margin-bottom: -49px;
+    margin-left: -50px;
+    margin-bottom: -50px;
 }
 .examples_items > * {
-    padding: 40px 44px 35px 40px;
     background: #FFFFFF;
     box-shadow: 8px 12px 64px rgba(121, 121, 121, 0.15);
     border-radius: 43px;
-    margin-left: 49px;
-    margin-bottom: 49px;
-    width: calc(100%/3 - 49px);
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: calc(100%/3 - 50px);
 }
 .examples_item {
     display: flex;
     flex-direction: column;
     height: auto;
+    text-decoration: none;
 }
 .examples_item-info {
-    margin-top: 20px;
+    padding: 26px 44px 28px 40px;
 }
 .examples_item-img {
-    width: 86px;
-    height: 86px;
+    width: 100%;
+    height: auto; 
+    position: relative;   
 }
 .examples_item-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 17px;
+    border-top-left-radius: 43px;
+    border-top-right-radius: 43px;
+}
+.examples_item-img:before {
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 55px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../images/play-button.svg);
 }
 .examples_item-title {
     font-weight: 700;

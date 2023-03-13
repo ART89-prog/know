@@ -223,11 +223,17 @@
         margin-bottom: -20px;
     }
     .examples_items > * {
-        padding: 20px;
         margin-left: 20px;
         margin-bottom: 20px;
         width: calc(100%/3 - 20px);
         border-radius: 20px;
+    }
+    .examples_item-info {
+        padding: 20px;
+    }
+    .examples_item-img img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
     }
     .examples_item-title {
         font-size: 22px;
@@ -265,7 +271,7 @@
         bottom: -11px;
     }
     header .menu {
-        top: 92px;
+        top: 86px;
     }
     .menu_open header {
         border-bottom: 1px solid #333;

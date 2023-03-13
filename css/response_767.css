@@ -149,7 +149,6 @@
     }
     .examples_items > * {
         width: calc(100%/2 - 20px);
-        padding: 15px;
     }
     .examples_item-title {
         font-size: 18px;

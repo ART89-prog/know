@@ -130,6 +130,10 @@
     .cont {
         padding: 0 15px;
     }
+    .header_logo img {
+        width: 210px;
+        height: 42px;
+    }
 
 
   
