@@ -4,6 +4,9 @@
         --font_size: 15px;
         --font_size_title: 24px;
     }
+    title br {
+        display: none;
+    }
     .header_btn {
         display: none;
     }
@@ -127,7 +130,7 @@
         margin-top: 15px;
     }
     .registration .block-head .title span:before {
-        width: 142px;
+        width: 176px;
     }
     .registration2 .registration_img {
         width: 240px;

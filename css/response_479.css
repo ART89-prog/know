@@ -1,5 +1,132 @@
 @media (max-width: 479px) {
 
+    .first-section_img {
+        width: 310px;
+        height: 262px;
+    }
+    .advantages_items {
+        margin-left: 0px;
+    }
+    .advantages_items > * {
+        width: 100%;
+        margin-left: 0;
+        border-radius: 15px;
+        padding: 15px;
+    }
+    .advantages_item:nth-child(3), 
+    .advantages_item:nth-child(4) {
+        width: 100%;
+        padding: 15px;
+    }
+    .numbers_item-top {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    .numbers_items {
+        margin-left: 0;
+        margin-bottom: -15px;
+    }
+    .numbers_items > * {
+        border-radius: 15px;
+        padding: 20px;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .steps_item-img::before {
+        width: 260px;
+        left: -10px;
+        bottom: -10px;
+        border-radius: 15px;
+    }
+    .steps_item-img::after {
+        width: 289px;
+        height: 289px;
+        left: -25px;
+        bottom: -25px;
+    }
+    .steps_item-info {
+        margin-top: 50px;
+    }
+    .steps_box-text {
+        margin-top: 10px;
+    }
+    .registration2 .registration_info {
+        padding: 20px 20px 240px 20px;
+    }
+    .registration .block-head {
+        margin-bottom: 20px;
+    }
+    .examples_items {
+        margin-left: 0px;
+        margin-bottom: -15px;
+    }
+    .examples_items > * {
+        margin-left: 0px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .examples_item-link {
+        margin-top: 30px;
+    }
+    .examples_item-link a {
+        width: 100%;
+    }
+    .director_photo {
+        width: 310px;
+        height: 310px;
+    }
+    .director_left-info {
+        right: 0;
+    }
+    .registration_info {
+        padding: 20px 20px 300px 20px;
+    }
+    .registration3 .registration_info {
+        padding: 20px 20px 280px 20px;
+    }
+    .registration_item-link a {
+        width: 100%;
+    }
+    .footer_right-text {
+        display: none;        
+    }
+    .footer_left {
+        padding-right: 0px;
+        border-right: none;
+        text-align: center;
+    }
+    .footer_right {
+        margin-left: 0px;
+    }
+    .footer_right a {
+        text-align: center;
+        margin-top: 15px;
+        display: block;
+    }
+    .footer_wrap {
+        flex-direction: column;
+    }
+    .footer_left-logo {
+        width: 280px;
+        height: 53px;
+        margin: 0 auto 20px;
+    }
+    .footer_left a, 
+    .footer_right a {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .footer_copy {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .registration_item-link a {
+        width: 100%;
+    }
+    .registration .block-head .title span:before {
+        width: 176px;
+    }
 
 
   
