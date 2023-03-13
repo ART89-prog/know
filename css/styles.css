@@ -1045,7 +1045,7 @@ header .cont {
 .registration .indication {
     font-family: 'Caveat';
     font-size: 32px;
-    line-height: 128.9%;
+    line-height: 105%;
     color: #FFFFFF;
     transform: rotate(3.61deg);
     padding-left: 170px;
@@ -1058,9 +1058,10 @@ header .cont {
     width: 170px;
     height: 101px;
     left: 0;
-    top: -5px;
+    top: -4px;
     background: url(../images/arrow2.svg);
     background-size: contain;
+    transform: rotate(-3.61deg);
 }
 .registration_item-link {
     display: flex;

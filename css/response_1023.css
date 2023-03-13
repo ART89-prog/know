@@ -35,7 +35,7 @@
         margin: 24px auto 0;
     }
     .first-section {
-        margin-bottom: 20px;
+        margin-bottom: -20px;
     }
     .registration_info {
         padding: 25px 30px 395px 30px;
@@ -121,7 +121,7 @@
     }
     .registration .indication {
         font-size: 22px;
-        padding-left: 120px;
+        padding-left: 107px;
     }
     .registration .indication:before {
         top: -9px;
@@ -182,7 +182,7 @@
         width: 100px;
         height: 59px;
         left: 0;
-        top: 10px;
+        top: 0px;
         background-size: contain;
         background-repeat: no-repeat;
     }

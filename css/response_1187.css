@@ -102,7 +102,7 @@
     }
     .first-section_img {
         width: 500px;
-        height: 433px;
+        height: 478px;
     }
     .first-section_info {
         margin-top: 30px;
@@ -254,7 +254,7 @@
         width: 221px;
     }
     .registration .indication:before {
-        top: 38px;
+        top: 0px;
     }
     footer {
         margin-top: 20px;
@@ -269,6 +269,10 @@
     }
     .menu_open header {
         border-bottom: 1px solid #333;
+    }
+    .registration .indication {
+        font-size: 29px;
+        z-index: 2;
     }
 
  
