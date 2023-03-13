@@ -119,6 +119,7 @@
     .steps_box {
         flex-direction: column;
         padding: 15px;
+        border-radius: 20px;
     }
     .steps_box-img img {
         width: 40px;

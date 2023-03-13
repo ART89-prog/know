@@ -127,6 +127,9 @@
     .registration .block-head .title span:before {
         width: 176px;
     }
+    .cont {
+        padding: 0 15px;
+    }
 
 
   
