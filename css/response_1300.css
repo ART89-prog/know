@@ -28,6 +28,13 @@
     header .menu .item a {
         margin-right: 18px;
     }
+    .swiper-button-next {
+        right: 20px;
+    }
+    .swiper-button-prev {
+        left: 20px;
+    }
+
 
 
 

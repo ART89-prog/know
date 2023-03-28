@@ -125,7 +125,7 @@
         width: 100%;
     }
     .registration .block-head .title span:before {
-        width: 176px;
+        width: 145px;
     }
     .cont {
         padding: 0 15px;
@@ -133,6 +133,22 @@
     .header_btn {
         justify-content: space-between;
         width: 100%;
+    }
+    .swiper-button-prev {
+        left: 10px;
+        bottom: 40%;
+    }
+    .swiper-button-next {
+        right: 10px;
+        bottom: 40%;
+    }
+    .reviews_text {
+        font-size: 16px;
+        margin-top: 15px;
+        padding: 0 10px;
+    }
+    .numbers .block-head .title span:before {
+        width: 85px;
     }
 
 

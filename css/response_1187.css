@@ -280,6 +280,19 @@
         font-size: 29px;
         z-index: 2;
     }
+    .reviews .block-head .title span:before {
+        width: 190px;
+    }
+    .internship {
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    .reviews .block-head {
+        margin-bottom: 50px;
+    }
+    .reviews::before {
+        top: 210px;
+    }
 
  
 

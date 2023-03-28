@@ -1086,7 +1086,7 @@ header .cont {
 .registration2 .registration_img {
     right: 15px;
     left: auto;
-    bottom: 7px;
+    bottom: 0px;
 }
 .registration2 .registration_info {
     padding: 48px 350px 64px 44px;
@@ -1277,6 +1277,9 @@ footer {
     line-height: 128.9%;
     color: #758481;
 }
+.benefits_item:last-child {
+    margin-bottom: 0;
+}
 
 
 .reviews {
@@ -1372,11 +1375,12 @@ footer {
 }
 .swiper-button-prev {
     left: calc(50% - 630px);
-    bottom: 200px;
+    bottom: 210px;
     top: auto;
 }
 .swiper-button-next {
-    left: calc(50% + 600px);
+    right: calc(50% - 630px);
+    left: auto;
     bottom: 210px;
     top: auto;
 }
