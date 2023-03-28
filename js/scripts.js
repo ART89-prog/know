@@ -50,6 +50,10 @@ $(() => {
   const swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     spaceBetween: 0,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
     breakpoints: {
       320: {
         slidesPerView: 1,
