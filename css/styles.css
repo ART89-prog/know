@@ -451,8 +451,9 @@ header .cont {
     animation: blink 0.6s linear infinite alternate;
 }
 .first-section_img {
-    margin-right: -10px;
+    margin-right: 38px;
     width: 796px;
+    margin-top: 60px;
     height: 689px;
 }
 
@@ -978,7 +979,7 @@ header .cont {
 
 
 .registration {
-    padding: 50px 0;
+    padding: 0 0 50px;
 }
 .registration_wrap {    
     background: linear-gradient(264.41deg, #C0E654 1.1%, var(--text_bg1) 100%);
@@ -990,8 +991,8 @@ header .cont {
 }
 .registration_img {
     position: absolute;
-    bottom: 0;
-    left: 55px;
+    bottom: 0px;
+    left: 40px;
 }
 .registration_img img {
     display: block;
@@ -1083,7 +1084,7 @@ header .cont {
 
 
 .registration2 .registration_img {
-    right: 31px;
+    right: 15px;
     left: auto;
 }
 .registration2 .registration_info {
@@ -1167,4 +1168,134 @@ footer {
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, .35);
     margin-top: 27px;
+}
+
+
+.internship {
+    margin-bottom: 65px;
+}
+.internship_box {
+    background: #EFF5FB;
+    border-radius: 43px;
+    padding: 40px 40px 60px;
+}
+.internship_wrap {
+    display: flex;
+}
+.internship_images {
+    width: 429px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 0;   
+}
+.internship_image {
+    width: 199px;
+    height: 199px;
+    margin-bottom: 0;
+}
+.internship_image img {
+    width: 100%;
+    height: 100%;  
+    border-radius: 38px;
+    object-fit: cover;  
+}
+.internship .block-head {
+    margin-left: 62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 12px;
+}
+.internship .block-head .title {
+    text-align: start;
+    line-height: 1;
+    max-width: 572px;
+    margin-bottom: 34px;
+}
+.internship .block-head .text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 146.4%;
+    color: #758481;
+    text-align: start;
+    max-width: 676px;
+}
+.internship .block-head .title span:before {
+    display: none;
+}
+.internship_label {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 46px;
+    text-align: center;
+    color: #536A1B;
+    margin-bottom: 24px;
+    background: linear-gradient(264.41deg, #C0E654 1.1%, #9AC731 100%);
+    border-radius: 43px;
+    width: 99px;
+    height: 46px;
+}
+.benefits_items {
+    margin-top: 53px;
+    display: flex;
+    margin-left: -35px;
+    margin-bottom: -38px;
+    flex-wrap: wrap;
+}
+.benefits_items > * {
+    width: calc(100%/2 - 35px);
+    margin-left: 35px;
+    margin-bottom: 38px;
+    display: flex;
+    align-items: center;
+    padding: 36px 23px;
+    background: #FFFFFF;
+    border-radius: 40px;
+}
+.benefits_item-icon {
+    width: 93px;
+    height: 93px;
+}
+.benefits_item-info {
+    margin-left: 25px;
+}
+.benefits_item-title {
+    font-weight: 700;
+    font-size: 24.4099px;
+    line-height: 119.4%;
+    letter-spacing: -0.05em;
+    color: #29282E;
+    margin-bottom: 7px;
+}
+.benefits_item-text {
+    font-weight: 400;
+    font-size: 16.8992px;
+    line-height: 128.9%;
+    color: #758481;
+}
+
+
+.reviews .block-head .title span:before {
+    position: absolute;
+    content: "";
+    background: url(../images/title-line.svg);
+    width: 257px;
+    height: 19px;
+    bottom: -8px;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.reviews .block-head .text {
+    max-width: 1038px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128.9%;
+    text-align: center;
+    color: #758481;
+}
+.swiper-container {
+    overflow: hidden;
 }

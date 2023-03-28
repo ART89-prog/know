@@ -47,6 +47,27 @@ $(() => {
 
 
 
+  const swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 0
+      },
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 0
+      },
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 0
+      }
+    }
+  })
+
+
+
 
 
   const carouselText = [
