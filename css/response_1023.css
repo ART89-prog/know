@@ -197,6 +197,44 @@
     .registration_wrap {
         border-radius: 20px;
     }
+    .internship_wrap {
+        flex-direction: column-reverse;
+    }
+    .internship .block-head {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .internship_label {
+        font-size: 18px;
+        line-height: 42px;
+        margin-bottom: 16px;
+        height: 42px;
+    }
+    .internship .block-head .title br {
+        display: none;
+    }
+    .internship .block-head .title {
+        max-width: 100%;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .internship .block-head .title span {
+        display: inline;
+    }
+    .internship .block-head .text {
+        font-size: 18px;
+        max-width: 100%;
+    }
+    .internship_images {
+        width: 100%;
+    }
+    .internship_images > * {
+        width: calc(100%/4 - 15px);
+        height: auto;
+    }
+    .internship_image img {
+        border-radius: 15px;
+    }
 
 
 

@@ -130,10 +130,11 @@
     .cont {
         padding: 0 15px;
     }
-    .header_logo img {
-        width: 210px;
-        height: 42px;
+    .header_btn {
+        justify-content: space-between;
+        width: 100%;
     }
+
 
 
   

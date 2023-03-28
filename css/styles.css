@@ -991,7 +991,7 @@ header .cont {
 }
 .registration_img {
     position: absolute;
-    bottom: 0px;
+    bottom: 23px;
     left: 40px;
 }
 .registration_img img {
@@ -1086,6 +1086,7 @@ header .cont {
 .registration2 .registration_img {
     right: 15px;
     left: auto;
+    bottom: 7px;
 }
 .registration2 .registration_info {
     padding: 48px 350px 64px 44px;
@@ -1100,6 +1101,7 @@ header .cont {
 
 .registration3 .registration_img {
     left: 16px;
+    bottom: 0;
 }
 
 
@@ -1173,7 +1175,7 @@ footer {
 
 .internship {
     margin-top: 100px;
-    margin-bottom: 65px;
+    margin-bottom: 47px;
 }
 .internship_box {
     background: #EFF5FB;
@@ -1206,7 +1208,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 12px;
+    margin-top: 18px;
 }
 .internship .block-head .title {
     text-align: start;
@@ -1241,16 +1243,16 @@ footer {
     margin-top: 53px;
     display: flex;
     margin-left: -35px;
-    margin-bottom: -38px;
+    margin-bottom: -46px;
     flex-wrap: wrap;
 }
 .benefits_items > * {
     width: calc(100%/2 - 35px);
     margin-left: 35px;
-    margin-bottom: 38px;
+    margin-bottom: 46px;
     display: flex;
     align-items: center;
-    padding: 36px 23px;
+    padding: 32px 25px;
     background: #FFFFFF;
     border-radius: 40px;
 }
@@ -1291,7 +1293,7 @@ footer {
     content: '';
     width: 100%;
     height: 419px;
-    top: 340px;
+    top: 352px;
     left: 50%;
     transform: translateX(-50%);
     background: url(../images/reviews_bg2.png);
@@ -1375,6 +1377,6 @@ footer {
 }
 .swiper-button-next {
     left: calc(50% + 600px);
-    bottom: 200px;
+    bottom: 210px;
     top: auto;
 }
